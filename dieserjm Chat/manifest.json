@@ -1,0 +1,31 @@
+{
+  "name": "dieserjm Chat",
+  "homepage_url": "https://chat.dieserjm.cf/",
+  "update_url": "https://chat.dieserjm.cf/",
+  "offline_enabled": true,
+  "version": "1.0",
+  "version_name": "beta version 1.0",
+  "description": "dieserjm Chat Chrome Extension - beta version",
+  "permissions": [
+        "<all_urls>",
+        "tabs",
+        "storage",
+        "cookies",
+        "webRequest",
+        "webRequestBlocking",
+        "downloads"
+    ],
+  "options_page": "options.html",
+  "background": "background.html",
+  "browser_action": {
+          "default_icon": {                  
+            "128": "128.png"        
+          },
+  "default_title": "dieserjm Chat",     
+          "default_popup": "popup.html"
+        },
+  "icons": {
+    "128": "128.png"
+  },
+  "manifest_version": 2
+}
